@@ -70,6 +70,13 @@ header{
 #display{
   text-align: right;
   font-size: 2em;
+  height: 36px;
+}
+
+#displayAnswer{
+  text-align: right;
+  font-size: 4em;
+  height: 64px;
 }
 
 #clear{
