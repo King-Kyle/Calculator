@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  text-align: center;
+  background-color: #88bdbc;
+}
+
+header{
+  font-size: 5em;
+  font-family: 'Caveat';
+  position: relative;
+  width: auto;
+  height: 130px;
+  background-color: #3aafa9;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+#calculator{
+  font-family: 'Wallpoet';
+  background-color: #373737;
+  margin: auto;
+  margin-top: 50px;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.screen{
+  background-color: white;
+  height: 100px;
+}
+
+.keys{
+  margin: auto;
+  height: 80px;
+}
+
+.keys button{
+  width: 130px;
+  height: 75px;
+  color: #c1c8e4;
+  background-color: #373737;
+  font-size: 3em;
+  border: none;
+}
+
+.opkeys{
+  background-color: #5ab9ea;
+}
+
+.opkeys button{
+  width: 95px;
+  height: 75px;
+  color: white;
+  background-color: #5ab9ea;
+  font-size: 4em;
+  border: none;
+}
+
+#display{
+  text-align: right;
+  font-size: 2em;
+}
+
+#clear{
+  float: left;
+  height: 100px;
+  position: static;
+  color: #5ab9ea;
+  border: none;
+  margin: 0 10px 0 10px;
+}
+
+#clear:hover{
+  color: #2a1b3d;
+}
+
+button p{
+  height:inherit;
+}
+
+button:focus{
+  outline:0;
+}
+
+button:hover{
+  color: #8860d0;
+}
+
+button p:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.3);
+}
+
+a{
+  text-decoration: none;
+  color: #88bdbc;
+}
+
+a:hover{
+  color: #8860d0;
+}
+
+footer{
+  font-size: 1.5em;
+  font-family: 'Caveat';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  color: white;
+  background: #112d32;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
